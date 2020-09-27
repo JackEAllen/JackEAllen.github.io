@@ -1,0 +1,95 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-family: Montserrat, sans-serif;
+  position: relative; }
+
+a {
+  color: #151B29;
+  text-decoration: none; }
+
+body {
+  background: #151b29 url("../images/dark_blue_backdrop_blob.svg") no-repeat center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  border: 1px solid red; }
+
+.row {
+  text-align: center; }
+
+.top_content {
+  border: 1px solid green; }
+
+.welcome {
+  margin-top: 10%;
+  border: 1px solid orange; }
+  .welcome svg {
+    object-fit: cover;
+    max-height: 300px; }
+  .welcome path:nth-child(1) {
+    stroke-dasharray: 1854;
+    stroke-dashoffset: 1854;
+    animation: line-anim 4s ease forwards; }
+  .welcome path:nth-child(2) {
+    stroke-dasharray: 1700px;
+    stroke-dashoffset: 1700px;
+    animation: line-anim-reverse 2s ease forwards 0.15s; }
+  .welcome path:nth-child(3) {
+    stroke-dasharray: 1323px;
+    stroke-dashoffset: 1323px;
+    animation: line-anim 6s ease forwards 0.1s; }
+  .welcome svg ellipse:nth-child(1) {
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+    animation: line-anim 6s ease forwards 0.2s; }
+  .welcome #logo {
+    animation: fill 0.75s ease forwards 1.75s; }
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0; } }
+@keyframes line-anim-reverse {
+  from {
+    stroke-dashoffset: 1700; }
+  to {
+    stroke-dashoffset: 3400; } }
+@keyframes fill {
+  from {
+    fill: transparent; }
+  to {
+    fill: #ffffff; } }
+.div3 {
+  margin-top: 90px;
+  text-align: center; }
+
+.header_text {
+  margin-top: 100px; }
+
+.header_scroll {
+  margin-top: 50px;
+  margin-bottom: 100px; }
+
+.inner2 img {
+  height: 25px; }
+
+.hiking_bg {
+  background-color: snow;
+  height: 100px;
+  border: 1px solid teal;
+  margin: 20px; }
+
+.main_content {
+  background-color: rgba(255, 250, 250, 0.9);
+  color: #3c3f52;
+  width: 100%;
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid fuchsia; }
+
+#main_section {
+  position: relative;
+  height: 500px; }
+
+/*# sourceMappingURL=main.css.map */

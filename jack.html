@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <title>Portfolio</title>
+
+<!--    <link href="https://fonts.googleapis.com/css2?family=Antic&display=swap" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/jack.css">
+<!--    <link rel="stylesheet" href="css/main.css">-->
+<!--    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>-->
+<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="javascript/app.js"></script>
+</head>
+<body>
+    <div class="container-fluid hero-image banner">
+        <nav class="navbar navbar-expand-sm navbar-dark col-sm-pull-12">
+            <div class="navbar-collapse collapse justify-content-sm-center" id="collapsingNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#interests">Interests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <div class="container header-banner">
+            <div class="row  justify-content-sm-center">
+                <div class="col-sm-3">
+                    <svg id="logo"
+                         viewBox="0 0 373 605"
+                         fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M61.132 4.632V3.132H59.632H46.384H44.884V4.632V78.792C44.884 83.0207 43.7667 86.4111 41.624 89.0729C39.5906 91.5068 36.4312 92.844 31.84 92.844C27.2846 92.844 24.0697 91.4335 21.9252 88.8012C19.7769 86.0456 18.5989 82.4039 18.5077 77.7546L18.4789 76.284H17.008H3.90399H2.40399V77.784C2.40399 86.827 5.04773 94.1531 10.4753 99.5807L10.4804 99.5857L10.4855 99.5907C15.905 104.908 23.0771 107.508 31.84 107.508C40.5041 107.508 47.6224 104.958 53.0401 99.7449L53.0453 99.7398L53.0505 99.7347C58.4719 94.4156 61.132 87.3816 61.132 78.792V4.632ZM92.9354 106.5H93.9883L94.3461 105.51L102.052 84.18H143.722L151.429 105.51L151.786 106.5H152.839H166.663H168.802L168.074 104.489L131.93 4.69718L131.571 3.708H130.519H115.399H114.349L113.99 4.69539L77.7017 104.487L76.9698 106.5H79.1114H92.9354ZM257.148 75.1408C254.479 80.9397 250.639 85.3603 245.63 88.4577C240.725 91.4541 234.769 92.988 227.695 92.988C220.93 92.988 214.908 91.4156 209.589 88.298C204.273 85.1815 200.096 80.7839 197.053 75.0675C194.016 69.2685 192.475 62.5081 192.475 54.744C192.475 46.8778 194.019 40.1211 197.051 34.4248L197.055 34.416C200.101 28.6018 204.278 24.1597 209.589 21.046C214.908 17.9284 220.93 16.356 227.695 16.356C234.762 16.356 240.713 17.9347 245.615 21.0214L245.626 21.0279C250.637 24.1254 254.478 28.5468 257.148 34.3472L257.55 35.22H258.511H274.207H276.394L275.606 33.1797C271.756 23.21 265.61 15.4609 257.165 9.99665C248.733 4.54033 238.89 1.836 227.695 1.836C218.134 1.836 209.378 4.10606 201.459 8.65962L201.452 8.66374C193.631 13.2179 187.443 19.5581 182.9 27.6552C178.345 35.6771 176.083 44.7193 176.083 54.744C176.083 64.7703 178.346 73.8139 182.902 81.8367C187.447 89.8386 193.634 96.1283 201.452 100.68L201.461 100.686L201.471 100.691C209.389 105.145 218.14 107.364 227.695 107.364C238.885 107.364 248.724 104.71 257.155 99.3541L257.165 99.3474C265.606 93.8857 271.753 86.1876 275.604 76.313L276.402 74.268H274.207H258.511H257.55L257.148 75.1408ZM347.031 106.005L347.478 106.5H348.145H365.281H368.691L366.387 103.986L321.374 54.8818L365.961 5.63879L368.231 3.132H364.849H348.289H347.617L347.169 3.63373L308.317 47.2078V4.632V3.132H306.817H293.713H292.213V4.632V105V106.5H293.713H306.817H308.317V105V63.1089L347.031 106.005ZM106.874 70.524L122.887 25.7868L138.901 70.524H106.874Z" stroke="white" stroke-width="3"/>
+                        <path d="M128.828 216.344V214.844H127.328H93.692V126.632V125.132H92.192H79.088H77.588V126.632V227V228.5H79.088H127.328H128.828V227V216.344ZM128.828 341.344V339.844H127.328H93.692V251.632V250.132H92.192H79.088H77.588V251.632V352V353.5H79.088H127.328H128.828V352V341.344ZM130.268 420.84V419.34H128.768H93.692V388.788H133.088H134.588V387.288V376.488V374.988H133.088H79.088H77.588V376.488V477V478.5H79.088H133.088H134.588V477V466.2V464.7H133.088H93.692V433.14H128.768H130.268V431.64V420.84ZM158 603.5H159.5V602V501.488V499.988H158H144.896H143.396V501.488V576.272L93.4435 500.661L92.9988 499.988H92.192H79.088H77.588V501.488V602V603.5H79.088H92.192H93.692V602V527.079L143.644 602.826L144.088 603.5H144.896H158Z"
+                              stroke="white"
+                              stroke-width="3"/>
+                    </svg>
+                </div>
+                <div class="col-sm-3">
+                    <svg id="logo"
+                        viewBox="0 0 542 729"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:1.5;">
+                        <g>
+                            <ellipse id="sun"
+                                     cx="270.75"
+                                     cy="248.25"
+                                     rx="266.25"
+                                     ry="243.75"
+                                     style="fill:none;
+                                     stroke:#fff;
+                                     stroke-width:4px;"/>
+                            <path id="moon"
+                                  d="M380.25,237c-146.947,0 -266.25,109.221 -266.25,243.75c0,134.529 119.303,243.75 266.25,243.75c-44.084,-56.875 -79.875,-146.516 -79.875,-243.75c0,-97.234 35.791,-186.875 79.875,-243.75Z"
+                                  style="fill:#3c3f52;
+                                  stroke:#fff;
+                                  stroke-width:4px;"/>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+             <div class="row">
+                <div class="col-md-12 github">
+                <a href="https://github.com/JackEAllen" target="_blank"><img src="images/GitHub-Mark/PNG/GitHub-Mark-Light-64px.png" alt="Github Logo - Link to Portfolio"></a>
+                    <h1>Here's a brief overview of
+                        <span
+                                class="txt-rotate"
+                                data-period="1000"
+                                data-rotate='[ "me.", "my projects.", "my hobbies."]'>
+                        </span>
+                    </h1>
+                 </div>
+             </div>
+
+            <div class="row">
+                <div class="col-md-12 hero-text">
+<!--                    <h1>Here's a brief overview of-->
+<!--                        <span-->
+<!--                                class="txt-rotate"-->
+<!--                                data-period="1000"-->
+<!--                                data-rotate='[ "me.", "my projects.", "my hobbies."]'>-->
+<!--                        </span>-->
+<!--                    </h1>-->
+<!--                    <h1>Here's a brief overview of me and my work</h1>-->
+                </div>
+            </div>
+            <div class="row scroll_down fixed-bottom">
+                <div class="col-md-12" id="scroll_down">
+                    <section id="section07" class="demo">
+                        <a href="#main_section"><span></span><span></span></a>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container main_section" id="main_section">
+        <section class="Interests">
+            <div class="row projects" id="interests">
+                <div class="col-md-6 interests">
+                    <h3>A Little Bit About Me</h3>
+                    <p>
+                       My names is Jack, and I'm currently completing my final year at Coventry university in Computer Science BSc (Hons)
+                    </p>
+                    <p>
+                        Since completing a year long placement at the STFC ISIS Neutron and Muon Source, my passion for
+                        science has skyrocketed, changing my entire outlook on the type of software developer i would like to become.
+                    </p>
+                </div>
+                 <div class="col-md-6 interests">
+                     <h3>STEM</h3>
+                    <p>
+                        A topic I am becoming increasingly interested in is public engagement.
+                        Whenever possible, i take pride in participating in STEM Outreach events to share my enthusiasm with the general public,
+                        hopefully even inspiring the next generation to work in this amazing field!
+                        <br>
+                        I am currently trying to adapt one of my projects which you can see below into a STEM activity which I hope to present at schools.
+                    </p>
+                </div>
+                <div class="col-md-12 interests">
+                    <h3>Hobbies</h3>
+                    <p>
+                        I strongly believe in maintaining a healthy work life balance. In order to do this, I fill my week with a number of hobbies.
+                        <br>
+                        Not only do I listen to rock, i also climb them and go under them!
+                    </p>
+
+                </div>
+                <div class="col-md-6 interests">
+                    <h4>Rock Climbing</h4>
+                    <p>
+                        One of my most beloved hobbies is rock climbing, this is something I enjoy doing both with and without friends.
+                        I believe part of the reason behind why i enjoy rock climbing is because not only is it beneficial to my fitness, but also my brain.
+                        <br>
+                        In order to climb efficiently,
+                        I need to first find the best route from the bottom to the top. When doing this, I must take into consideration the following points:
+                    </p>
+                    <ul>
+                        <li>My climbing style</li>
+                        <li>Build</li>
+                        <li>Body weight distribution</li>
+                    </ul>
+                    <p>
+                        While on placement, I convinced a number of colleagues to go climbing regularly with me
+                        <br>
+                        You can see some of my successful and unsuccessful climbs <a href="https://photos.app.goo.gl/YydCJpaMnw2J3N4Z7" target="_blank">here</a>
+                    </p>
+                </div>
+                <div class="col-md-6 interests">
+                    <h4>Caving</h4>
+                    <p>
+                        Though not as often as climbing up them, I also enjoy going under rocks after a friend introduced me to the sport of caving, also known as potholing.
+                        I would like to continue caving when any and all opportunities arise.
+                    </p>
+
+                    <h4>Rock Music</h4>
+                    <p>
+                        When i'm not climbing rocks or venturing underneath them, I am listening to them.
+                        <br>
+                        A long, long, long time ago, back to a time when the word Covid19 was unheard of, i often went to live concerts and music festivals such as Slam Dunk and Download.
+                        <br>
+                        My favourite genres are classic rock, punk rock, pop punk and grunge.
+                    </p>
+                </div>
+
+           </div>
+         </section>
+         <section class="projects" id="projects">
+            <div class="row projects" id="project-1">
+                <div class="col-md-12 project-2">
+                    <h2>Image Processing in Neutron Tomography Beyond The Standard Geometry</h2>
+                    <p>My final year dissertation is a collaboration with UKRI - STFC ISIS Neutron and Muon Source
+                        to improve data collection and image processing for neutron tomography instruments.</p>
+
+                    <p> This project is being developed primarily for IMAT, a scientific instrument within ISIS,
+                        but could be utilised by other instruments within ISIS later on.
+                        My work will eventually make its way into The Mantid Project within the Mantid Imaging repository.</p>
+                    <div class="project_container">
+                        <img alt="tomography imaging" src="images/IMAT_1.png">
+                    </div>
+                    <div class="project_container">
+                        <img alt="tomography imaging" src="images/IMAT_2.png">
+                    </div>
+                    <div class="project_container">
+                        <img alt="tomography imaging" src="images/IMAT_3.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="row projects" id="project-2">
+                <div class="col-md-12 project-2">
+                    <h2>Autoreduction</h2>
+                    <p>I have spent just over a year on placement between 2019-2020 primarily working on an
+                        open source project called <a href="https://github.com/ISISScientificComputing/autoreduce">Autoreduction</a>
+                        as part of the <a href="https://www.ukri.org/">UK Research and Innovations</a>, <a href="https://stfc.ukri.org/">Science and Technology
+                            Facilities Councils</a> <a href="https://www.isis.stfc.ac.uk/Pages/home.aspx">ISIS Neutron and Muon Source</a></p>
+                    <h3>Line Manager Comments</h3>
+                    <p>
+                        "Jack has had a good year at ISIS and has been a great help to the progression of the Autoreduction project. He has proven himself capable in both software development and user support tasks.
+                        <br>
+                        In the earlier half of Jacks year with us, he helped to identify areas for improvement within the project and work independently to implement new technologies. Furthermore, Jack has shown a keen interest in the science and domain space around the project expressing desire to learn more about the work carried out at the lab. Jack has gone on to demonstrate this knowledge by giving a guided tour of the ISIS instrument halls to A-Level students.
+                        <br>
+                        More recently Jack has been involved with the monitoring and visualisation aspects of the project. Here again, he has shown good software engineering skills to implement these aspects of the system.
+                        <br>
+                        Jack has shown good aptitude for code quality and ensuring software engineering principals such as DRY (do not repeat yourself). Something to consider going forward is to strive for a balance between these principals and design simplicity. It is always best to reduce code duplication where possible, however it is important to consider the implications this has on readability and complexity.
+                        <br>
+                        Overall, Jack has been an asset to the team both technically and socially and I have been very pleased with his achievements in the Autoreduction project this year. I would like to thank Jack for his input and effort on the project this year." - Elliot Oram
+                    </p>
+                    <div class="project_container">
+                        <div id="carouselDarkControls" class="carousel slide" data-ride="carousel" data-interval="5000">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselDarkControls" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselDarkControls" data-slide-to="1"></li>
+                                <li data-target="#carouselDarkControls" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="images/Autoreduction_instrument_summary.png" alt="Property of ISIS Neutron and Muon Source Analysis Analytics and Infrastructure Group Autoreduction Project">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="images/Autoreduction_scatterplot.png" alt="Property of ISIS Neutron and Muon Source Analysis Analytics and Infrastructure Group Autoreduction Project">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="images/Autoreduction_EditVariables.png" alt="Property of ISIS Neutron and Muon Source Analysis Analytics and Infrastructure Group Autoreduction Project">
+                                </div>
+                            </div>
+
+                            <a class="carousel-control-prev carousel-control-dark" href="#carouselDarkControls" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+
+                            <a class="carousel-control-next carousel-control-dark" href="#carouselDarkControls" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="projects">
+            <div class="row projects" id="project-3">
+                <div class="col-md-12 project-3">
+                    <h2>Drones, Object Detection and Training and Testing Data Pipeline</h2>
+                    <p>This is a project I have been actively working on in my spare time after
+                        first developing a basic prototype which can be seen below at Coventry University.
+                        (Sorry for the straight face, I only used a frontal face classification for my first test so I needed to hold a constant facial expression)</p>
+                    <p>The example below uses the DJI Tello drone as a platform and a tuned
+                        <a href="https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html">Haar Cascade classifier</a>
+                        trained with custom data collected, cleaned and separated into test and training sets as part of a data
+                        collection and cleaning pipeline I constructed.</p>
+                    <div class="project_container">
+                        <video controls height="auto" width="60%">
+                            <source src="videos/drone_test-1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                     <p>I have since moved to a more practical platform using the <a href="https://www.bitcraze.io/products/old-products/crazyflie-2-0/">Crazyflie drone</a>
+                         which has more capable hardware for use with the <a href="https://github.com/pjreddie/darknet">YOLO V4 classifier</a>.</p>
+                    <p>This project focuses on creating a swarm of drones to autonomously navigate a building, identifying objects of interest
+                        and pinning there locations to a 3D blueprint constructed by the drones when navigating the building to a dashboard.</p>
+                        <p>The swarm of drones act as their own mesh network to relay information to each other extending
+                            their range of flight exponentially.</p>
+                    <p>I do not have a clear goal in mind for this project other than to simply have fun!</p>
+                    <P> I will make the GitHub repository including the  automated data collection  and cleaning pipeline for
+                        training my classifiers public on completion of the project (I estimate
+                        this will be sometime mid 2021 with my new found free time as a result of lockdown)</P>
+                    <p>I hope to use this project as part of my STEM outreach to introduce the next generation to all the cool things programming allows you to do!</p>
+                </div>
+            </div>
+        </section>
+        <section class="projects">
+            <div class="row projects" id="project-4">
+                <div class="col-md-12 project-4">
+                    <h2>Predicting Pulsars</h2>
+                    <p>This project had two main purposes for me:</p>
+                    <ol>
+                        <li>To fulfill my love for the stars</li>
+                        <li>To compare and contrast a variety of machine learning techniques</li>
+                    </ol>
+                    <div class="project_container">
+                        <script src="https://gist.github.com/JackEAllen/fca54dccccff17613530c376b4cda863.js"></script>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <section class="projects">
+            <div class="row projects" id="project-5">
+                <div class="col-md-12 project-5">
+                    <h2>911 Calls Capstone Projects</h2>
+                    <p>Working on the 911 Calls Capstone dataset has helped me learn better generic data analysis
+                        techniques and more importantly how to approach data.</p>
+                    <p>I have learned that gaining an understanding of the data I am working with greatly improves my
+                        ability to apply the right analytical tools to generate constructive insights.</p>
+                    <div class="project_container">
+                        <script src="https://gist.github.com/JackEAllen/f375248cbe8381d3ccc43925d2d69d80.js"></script>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+<!-- Footer -->
+<footer class="page-footer font-small mdb-color pt-4">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-center">
+
+    <!-- Footer links -->
+    <div class="row text-center text-md-center mt-3 pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Jack Allen</h6>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold"><a href="https://github.com/JackEAllen"><img src="images/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png" alt="Github Logo - Link to Portfolio"></a></h6>
+      </div>
+      <!-- Grid column -->
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold"><a href="mailto:mr.jack.e.allen@gmail.com"><img src="images/mail-32.png" alt="Email Icon - Contact Me"></a></h6>
+      </div>
+      <!-- Grid column -->
+    </div>
+    <!-- Footer links -->
+
+    <!-- Grid row -->
+    <div class="row d-flex align-items-center">
+
+      <!-- Grid column -->
+      <div class="col-md-12 col-lg-12">
+
+        <!--Copyright-->
+        <p class="text-center text-md-center">© 2020 Copyright:
+          <a href="https://github.com/JackEAllen">
+            <strong>https://JackEAllen.github.io</strong>
+          </a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+</footer>
+<!-- Footer -->
+</html>
